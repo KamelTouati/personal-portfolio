@@ -1,0 +1,71 @@
+[
+    {
+        "title": "HTML5",
+        "img": "assets/images/html5-original-wordmark.svg"
+    },
+    {
+        "title": "CSS3",
+        "img": "assets/images/css3-original-wordmark.svg"
+    },
+    {
+        "title": "Javascript",
+        "img": "assets/images/javascript-original.svg"
+    },
+    {
+        "title": "GIT",
+        "img": "assets/images/git.svg"
+    },
+    {
+        "title": "Bootstrap",
+        "img": "assets/images/bootstrap-plain-wordmark.svg"
+    },
+    {
+        "title": "TailwindCSS",
+        "img": "assets/images/tailwindcss.svg"
+    },
+    {
+        "title": "SASS",
+        "img": "assets/images/sass-original.svg"
+    },
+    {
+        "title": "DJANGO",
+        "img": "assets/images/django.svg"
+    },
+    {
+        "title": "Flask",
+        "img": "assets/images/pocoo_flask-icon.svg"
+    },
+    {
+        "title": "ReactJS",
+        "img": "assets/images/react-original-wordmark.svg"
+    },
+    {
+        "title": "Node JS",
+        "img": "assets/images/nodejs-original-wordmark.svg"
+    },
+    {
+        "title": "Express JS",
+        "img": "assets/images/express-original-wordmark.svg"
+    },
+    {
+        "title": "MongoDB",
+        "img": "assets/images/mongodb-original-wordmark.svg"
+    },
+    {
+        "title": "Adobe Photoshop",
+        "img": "assets/images/photoshop-line.svg"
+    },
+    {
+        "title": "Figma",
+        "img": "assets/images/figma.svg"
+    },
+    {
+        "title": "Adobe Illustrator",
+        "img": "assets/images/adobeAI.svg"
+    },
+    {
+        "title": "Adobe XD",
+        "img": "assets/images/adobeXD.svg"
+    }
+    
+]

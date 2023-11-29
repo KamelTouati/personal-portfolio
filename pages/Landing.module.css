@@ -1,0 +1,41 @@
+/* home style */
+.circleColor {
+    background: linear-gradient(130deg, var(--color2), var(--color4));
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    background: linear-gradient(#19A7CE, #AA77FF);
+    animation: animate 6s linear infinite;
+    z-index: 0;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    background: #090E16;
+    inset: 2px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* end home style */
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
