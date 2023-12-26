@@ -36,11 +36,11 @@ const Projects = () => {
           </div>
         ))}
         <div className="flex items-center">
-          <Link href="/projects">
+          <Link href="/projects" className="z-10">
             <Title className='z-10'>
               <RxEnter className="mr-1.5" />
               See more
-              <Image className="ml-1.5 w-[30px]" src={fire} alt="public" />
+              <Image className="ml-1.5 w-[30px]" src={fire} alt="fire" />
             </Title>
           </Link>
         </div>
