@@ -1,34 +1,35 @@
 /* about style */
 .descriptionStyle {
-    color: white;
+  color: white;
 }
 
 .skills p {
-    color: var(--color4);
-    font-weight: 600;
-    margin-right: 7rem;
-    padding-right: 2rem;
-    text-align: center;
+  color: var(--color4);
+  font-weight: 600;
+  margin-right: 7rem;
+  padding-right: 2rem;
+  text-align: center;
 }
 
 .skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    list-style: none;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
+  justify-content: center;
 }
 
 .skills ul li {
-    align-items: center;
-    background: rgba(123, 74, 226, 0.05);
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgb(0 0 0 / 9%);
-    cursor: pointer;
-    display: flex;
-    height: 4.5rem;
-    justify-content: center;
-    width: 4.5rem;
+  align-items: center;
+  background: rgba(123, 74, 226, 0.05);
+  border-radius: 0.25rem;
+  /* box-shadow: 0 0 10px rgb(0 0 0 / 9%); */
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  cursor: pointer;
+  display: flex;
+  height: 4.5rem;
+  justify-content: center;
+  width: 4.5rem;
 }
 
 /* end about style */

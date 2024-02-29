@@ -65,7 +65,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="user_name"
-                className={`${styles.inputBgColor} w-[500px] border border-gray-300 text-white text-sm rounded-lg block p-2.5`}
+                className={`${styles.inputBgColor} w-[500px] border border-blue-400 text-white text-sm rounded-lg block p-2.5`}
                 placeholder="name"
               />
             </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 type="text"
                 id="email-address-icon"
                 name="user_email"
-                className={`${styles.inputBgColor} w-[500px] border border-gray-300 text-white text-sm rounded-lg block p-2.5`}
+                className={`${styles.inputBgColor} w-[500px] border border-blue-400 text-white text-sm rounded-lg block p-2.5`}
                 placeholder="name@domaine.com"
               />
             </div>
@@ -94,7 +94,7 @@ const Contact = () => {
               id="message"
               name="message"
               rows="4"
-              className={`${styles.inputBgColor} resize-none w-[500px] block p-2.5 text-sm text-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500`}
+              className={`${styles.inputBgColor} resize-none w-[500px] block p-2.5 text-sm text-white rounded-lg border border-blue-400 focus:ring-blue-500 focus:border-blue-500`}
               placeholder="Leave a comment..."
             ></textarea>
             <button

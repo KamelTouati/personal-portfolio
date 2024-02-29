@@ -4,7 +4,6 @@ import { HiHome, HiInformationCircle } from "react-icons/hi";
 import { FaFileCode } from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
 
-
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -14,7 +13,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-center rounded-lg glass px-2 sm:px-4 py-1 fixed z-20 border border-gray-200 lg:left-1/2 top-3 lg:-translate-x-1/2 w-[80%] lg:w-2/4 mx-5 sm:mx-0">
+      <nav
+        className="flex justify-center rounded-lg glass px-2 sm:px-4 py-1 fixed z-20 border border-blue-400 lg:left-1/2 top-3 lg:-translate-x-1/2 w-[80%] lg:w-2/4 mx-5 sm:mx-0"
+        style={{ boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px" }}
+      >
         <div className="container flex flex-wrap items-center justify-center mx-auto">
           <div className="flex md:order-2">
             <button
